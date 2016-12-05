@@ -10,7 +10,7 @@ Open a command-line console, `cd` into the directory where your index.html file 
 - Python 3: `python -m http.server`
 - PHP (>=5.4): `php -S localhost:8000` 
 
-Then go to `http://localhost:8000/` in your browser. If you want, you can stop the server with `ctrl-C`, but your page won't work if you simply load the file into the browser.
+Wait until the console shows `Serving HTTP on 0.0.0.0 port 8000`, then go to `http://localhost:8000/` in your browser. You can stop the server with `ctrl-C` if you need to later, but your page won't read the JSON if you simply load the file into the browser.
 
 Read more about [running a simple local server](https://github.com/mrdoob/three.js/wiki/How-to-run-things-locally).
 
