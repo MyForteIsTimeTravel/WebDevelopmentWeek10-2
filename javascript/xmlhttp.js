@@ -2,7 +2,10 @@
 
   let xmlhttp = new XMLHttpRequest();
   // let url = "http://localhost:8000/data/data.json";
-  // if you can't run a local server, use the JSON source below
+  /*
+  if you can't run a local server, use the JSON source below and
+  change the code that reads in the array data to match the new data 
+  */
   let url = "https://jsonplaceholder.typicode.com/photos";
   /*
     this online 'fake API' service has other JSON examples covering
