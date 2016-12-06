@@ -1,6 +1,6 @@
 # Javascript data exercise 02
 
-This example uses a local web server (check that this is available) to allow your browser to read in a local JSON file, and display the results.
+The first part of this example uses a local web server (check that this is available) to allow your browser to read in a local JSON file, and display the results. If you can't run a local server, use the alternative JSON API source commented in the code.
 
 ## Start a local web server
 

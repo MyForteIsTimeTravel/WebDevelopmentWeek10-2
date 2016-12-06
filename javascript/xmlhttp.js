@@ -1,8 +1,9 @@
 (function(){
 
   let xmlhttp = new XMLHttpRequest();
-  let url = "http://localhost:8000/data/data.json";
-  // let url = "https://jsonplaceholder.typicode.com/photos";
+  // let url = "http://localhost:8000/data/data.json";
+  // if you can't run a local server, use the JSON source below
+  let url = "https://jsonplaceholder.typicode.com/photos";
 
   xmlhttp.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
