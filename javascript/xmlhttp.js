@@ -1,6 +1,7 @@
 (function(){
 
   let xmlhttp = new XMLHttpRequest();
+  // if you can run a local server on port 8000, use this URL:
   // let url = "http://localhost:8000/data/data.json";
   /*
   if you can't run a local server, use the JSON source below and
