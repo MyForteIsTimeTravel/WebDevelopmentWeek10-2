@@ -4,6 +4,11 @@
   // let url = "http://localhost:8000/data/data.json";
   // if you can't run a local server, use the JSON source below
   let url = "https://jsonplaceholder.typicode.com/photos";
+  /*
+    this online 'fake API' service has other JSON examples covering
+    typical use cases - feel free to try them out:
+    https://jsonplaceholder.typicode.com/
+  */
 
   xmlhttp.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
