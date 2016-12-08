@@ -24,14 +24,21 @@
   xmlhttp.send();
 
   let demoJSON = document.getElementById("demo");
-
+    
   function gatherData(arr) {
     let theData = "";
-    let i;
-    for(i = 0; i < arr.lecturers.length; i++) {
-      theData += `<li>${arr.lecturers[i].firstName} ${arr.lecturers[i].lastName}</li>`;
-    }
-    demoJSON.innerHTML = theData;
-  }
+      
+    arr.forEach (function (item) {
+        theData += 
+            `<li>
+                <a href=${item.url}>
+                    <img src=${item.thumbnailUrl} alt="you failed">
+                </a>
 
+                <h2>${item.title}</h2>
+            </li>`
+    })
+    
+    demoJSON.innerHTML = theData;
+  }    
 }());
